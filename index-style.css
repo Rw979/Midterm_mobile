@@ -164,17 +164,26 @@ body {
     margin-right: 20px;
   }
 
-  .index_column1_left h1, .index_column2 p {
-    font-size: 40px; 
+  .index_column1_left h1 {
+    font-size: 35px; 
   }
 
   .index_column1_left p, .index_column3 {
     font-size: 16px;
   }
+ 
+  .index_column2 p{
+    font-size: 24px;
+  }
 
   .index_column1 .index_column1_right {
     order: -1;
   }
+
+  .index_column1_left, .index_column1_right{
+  flex-basis: none;
+  margin: 0;
+}
 
   .index_column1 img{
     max-width: 40%; 
