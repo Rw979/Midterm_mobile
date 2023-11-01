@@ -10,7 +10,7 @@ body {
         }
 
         .sidebar-menu {
-            z-index: +99;
+            z-index: 99;
             width: 250px;
             height: 100vh;
             background-color: #D8D4BE;

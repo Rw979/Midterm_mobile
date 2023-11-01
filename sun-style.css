@@ -1,0 +1,240 @@
+body {
+  font-family: 'Abhaya Libre', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 2.0;
+}
+
+ #menuToggle {
+            display: none;
+        }
+
+        .sidebar-menu {
+            z-index: 99;
+            width: 250px;
+            height: 100vh;
+            background-color: #D8D4BE;
+            position: fixed;
+            left: -250px;
+            top: 0;
+            box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+            transition: left 0.3s;
+        }
+
+        .sidebar-menu li, .sidebar-menu a {
+            color:#39402D;
+        }
+
+        #menuToggle:checked + .sidebar-menu {
+            left: 0;
+        }
+
+        .menu-btn {
+            font-size: 60px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            display: block;
+            padding: 10px;
+            margin: 0;
+            color: #D9BF75;
+         }
+    
+  .close-btn {
+            font-size: 30px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            display: block;
+            padding: 10px;
+            margin: 0;
+            text-align: right;
+            width: 100%;
+            display: none;
+            position: absolute;  
+            top: 10px;         
+            right: 10px; 
+            color:#39402D;
+        }
+
+        .menu-btn:before {
+            content: '≡';
+        }
+
+        .close-btn:before {
+            content: '✖';
+        }
+
+        .close-btn {
+            text-align: right;
+            width: 100%;
+            display: none;
+        }
+
+        #menuToggle:checked + .sidebar-menu .close-btn {
+            display: block;
+        }
+
+        #menuToggle:checked + .sidebar-menu + .menu-btn {
+            display: none;
+        }
+
+        .ul{
+          color:#39402D;
+        }
+
+.icon{
+   width: 30px;
+   height: 30px; 
+}
+
+.sun_column1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+  margin-top: 100px;
+}
+
+.sun_column1 img{
+  width: 50%;
+}
+
+.sun_column2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+} 
+
+.sun_column2 img{
+  width: 50%;
+}
+
+.sun_column2 p{
+  padding: 60px;
+}
+
+.sun_column3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+  line-height: 1.5;
+} 
+
+.sun_column3 img{
+  width: 50%;
+  height:30%;
+}
+
+.sun_column3 p{
+  padding: 60px;
+}
+
+.sun_column4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+} 
+
+.sun_column4 img{
+  width: 50%;
+}
+
+.sun_column4 p{
+  padding: 80px;
+}
+
+.sun_column5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+  padding-right: 300px;
+  padding-left: 300px;
+  line-height: 1.8;
+} 
+
+.sun_column6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #D9BF75;
+  font-size: 20px;
+  text-align:center;
+  line-height: 1.8;
+} 
+
+.sun_column6 img{
+  width: 50%;
+}
+
+@media only screen and (max-width: 750px){
+  .sun_column1 p,
+  .sun_column2 p,
+  .sun_column3 p,
+  .sun_column4 p,
+  .sun_column5 p, 
+  .sun_column6 p{
+      font-size: 16px;
+  }
+
+
+  .sun_column1 h1{
+    font-size:24px;
+  }
+
+  .sun_column1 h1+p+img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  .sun_column2 {
+        display: flex;
+        flex-direction: column;
+  }
+
+  .sun_column3 {
+        display: flex;
+        flex-direction: column;
+  }
+
+  .sun_column4 {
+        display: flex;
+        flex-direction: column;
+  }
+
+  .sun_column5 {
+        display: flex;
+        flex-direction: column;
+  }
+
+  .sun_column1 img,
+  .sun_column2 img,
+  .sun_column3 img,
+  .sun_column4 img,
+  .sun_column5 img, 
+  .sun_column6 img{
+      width: 100%;
+      height: auto;
+  }
+
+  
+}
