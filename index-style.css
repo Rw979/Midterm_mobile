@@ -10,7 +10,7 @@ body {
         }
 
         .sidebar-menu {
-            z-index: +99;
+            z-index: 99;
             width: 250px;
             height: 100vh;
             background-color: #D8D4BE;
@@ -146,6 +146,15 @@ body {
     text-align: center;
     line-height: 1.5; 
 }
+
+.cite_column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#D9BF75;
+}
+
 
 @media only screen and (max-width: 750px){
    

@@ -174,6 +174,11 @@ hr.solid {
 }
 
 @media only screen and (max-width: 750px){
+  .menu-btn, .close-btn {
+    font-size: 30px; 
+  }
+
+
   .sky_column1 p{
     font-size: 24px; 
   }
