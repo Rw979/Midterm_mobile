@@ -101,6 +101,7 @@ body {
 
 .index_column1_left h1 {
  font-size: 70px;
+ margin-left: 20px;
 }
 
 .index_column1_left p {
@@ -111,7 +112,6 @@ body {
 
 .index_column1_left, .index_column1_right{
   flex-basis: 50%;
-  margin: 60px;
 }
 
 
